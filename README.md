@@ -8,7 +8,11 @@ EAI JSON Converter is a custom Siebel Business service which is built using EAI 
 Service Provides two methods:
 
 1. PropSetToJSON
+	Input  : <Any Property Set>
+	Output : JSON (string) 
 2. JSONToPropSet
+	Input  : JSON (String)
+	Output : SiebelMessage  (PropertySet)
 
 Dependencies: 
 gson-2.2.4.jar
